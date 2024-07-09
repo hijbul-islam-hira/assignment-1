@@ -5,6 +5,28 @@
     padding: 0px;
 }
 
+/*common Design*/
+
+.section-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 80px;
+}
 /*Banner Section Design*/
 .banner{
     height:652px;
@@ -94,26 +116,6 @@
     background: rgba(13, 19, 33, 0.02);
     
 }
-.why-dev-title{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.why-dev-description{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 .layer234{
     height: 336px;
@@ -127,7 +129,8 @@
     width: 850px;
     height: 240px;
     display: flex;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    gap: 150px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255,0.1),rgba(255, 255, 255, 1.5) 100%);
 
 }
 .layer234-heading{
@@ -175,4 +178,28 @@
     height: 115px;
     width: 852px;
     margin-bottom: 40px;
+}
+
+/* My inspriation section design */
+
+.inspriation{
+    height: auto;
+    width: 1140px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.ins-video-content{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px 32px;
+    margin-top: 20px;
+
+}
+.ins-video{
+    border-radius: 16px;  
 }
