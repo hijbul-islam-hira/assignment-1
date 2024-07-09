@@ -69,3 +69,110 @@
     width: 230px;
     margin-top: 30px;
 }
+
+/* Why Web Development?? section design */
+
+
+.why-dev{
+    height: 1395px;
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+.why-dev-container{
+    height: 1235px;
+    max-width: 946px;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px 97px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    
+}
+.why-dev-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.why-dev-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.layer234{
+    height: 336px;
+    width: 946px;
+    border-radius: 16px;
+    padding-top: 10px;
+    
+
+}
+.content-layer{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+.layer234-heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.layer234-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.layer234-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    height: 48px;
+    width: 150px;
+    background-color: #fff;
+    
+}
+.content-layer a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.layer1{
+    height: 115px;
+    width: 852px;
+    margin-bottom: 40px;
+}
