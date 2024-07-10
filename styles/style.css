@@ -412,6 +412,8 @@ footer{
     
 }
 .footer-content{
+    max-width: 1140px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
