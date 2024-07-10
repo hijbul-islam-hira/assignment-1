@@ -406,18 +406,16 @@ section{
 }
 /*Footer section styles*/
 footer{
-    width: 1440px;
-    height: 100px;
+    max-width: 1140px;
+    height: 40px;
     margin: 0 auto;
+    padding: 20px 150px;
     
 }
 .footer-content{
-    max-width: 1140px;
-    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 150px;
     
 }
 
