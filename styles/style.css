@@ -209,10 +209,11 @@ section{
 
 }
 .current-target-component{
-    height: 400px;
+    height: auto;
     width: 1140px;
     display: flex;
     justify-content: space-between;
+    
     
 }
 .current-target-component-html{
@@ -220,6 +221,7 @@ section{
     width: 300px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
+    padding: 25px 20px;
     
    
 
@@ -228,13 +230,15 @@ section{
     height:300px;
     width: 300px;
     border-radius: 16px;  
-    background: rgba(0, 76, 232, 0.05);    
+    background: rgba(0, 76, 232, 0.05);
+    padding: 25px 20px;    
 }
 .current-target-component-js{
     height: 300px;
     width: 300px;
     border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);    
+    background: rgba(255, 223, 0, 0.05);
+    padding: 25px 20px;    
 }
 .current-target-heading{
     color: rgb(13, 19, 33);
@@ -243,7 +247,7 @@ section{
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0%;
-    margin: 10px 0px;
+    margin: 30px 0px;
 }
 .current-target-description{
     color: rgb(13, 19, 33);
@@ -252,9 +256,68 @@ section{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    margin: 10px 0px;
+    margin-bottom: 45px;
 }
 .current-target-group>a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 15px;
+
+}
+
+/*My Next Target section optional section design*/
+.my-next{
+    height: 871px;
+    margin-top: 250px;
+}
+.my-next{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.my-next-content{
+    width: 1140px;
+    height: 220px;
+    display: flex;
+    justify-items: center;
+    text-align: left;
+    gap: 80px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;    
+    background: rgb(255, 255, 255);
+}
+.my-next-heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.my-next-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.my-next-content>a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -263,10 +326,5 @@ section{
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
-
-}
-.current-target-group{
-    width: 400px;
-    height: 400px;
-    margin-left: 15px;
+    margin-bottom: 20px;
 }
