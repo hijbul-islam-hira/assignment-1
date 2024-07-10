@@ -6,7 +6,11 @@
 }
 
 /*common Design*/
-
+section{
+    height: 1395px;
+    width: 1140px;
+    margin: 0 auto;
+}
 .section-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -94,13 +98,6 @@
 
 /* Why Web Development?? section design */
 
-
-.why-dev{
-    height: 1395px;
-    width: 1140px;
-    margin: 0 auto;
-    
-}
 .why-dev-container{
     height: 1235px;
     max-width: 946px;
@@ -198,8 +195,78 @@
     border-radius: 16px;
     padding: 32px 32px;
     margin-top: 20px;
+    margin-bottom: 60px;
 
 }
 .ins-video{
     border-radius: 16px;  
+}
+/*My current target Section*/
+
+.current-target{
+    width: 1140px;
+    height: 463px;
+
+}
+.current-target-component{
+    height: 400px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.current-target-component-html{
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+   
+
+}
+.current-target-component-css{
+    height:300px;
+    width: 300px;
+    border-radius: 16px;  
+    background: rgba(0, 76, 232, 0.05);    
+}
+.current-target-component-js{
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);    
+}
+.current-target-heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    margin: 10px 0px;
+}
+.current-target-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin: 10px 0px;
+}
+.current-target-group>a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+.current-target-group{
+    width: 400px;
+    height: 400px;
+    margin-left: 15px;
 }
