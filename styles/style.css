@@ -408,18 +408,15 @@ section{
 footer{
     width: 1440px;
     height: 100px;
-    margin-top: 55px;
+    margin: 0 auto;
     
 }
 .footer-content{
-    height: 36px;
-    width: 1140px;
     display: flex;
     justify-content: space-between;
-    margin: 10px 220px;
-
+    align-items: center;
+    margin: 20px 150px;
     
-
 }
 
 .copyright{
